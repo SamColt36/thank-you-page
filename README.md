@@ -1,52 +1,113 @@
-# Página de agradecimento
+# 🚀 Projeto: Página de Agradecimento
+![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)![](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)![](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+<img title="Node" alt="Banner NodeJs" src="./docs/images/banner.png"
+style="max-width: 680px">   
 
-🎨 Um projeto simples de card estilizado criado usando a biblioteca de estilos TailwindCSS e uma pitada de JQuery.
+## 🌐 Visão Geral
 
-## Visão Geral
+Este projeto é um exemplo simples de como criar um componente de card estilizado usando ferramentas como *TailwindCSS* e o *Webpack*. O card inclui um *container* no centro que contém: cabeçalho com uma imagem, um título e uma breve descrição. O projeto serve para como página de agradecimento de formulários *web*.
 
-Este projeto é um exemplo simples de como criar um componente de card estilizado usando o TailwindCSS e o webpack. O card inclui um cabeçalho com uma imagem, um título e uma breve descrição. O projeto serve para como página de agradecimento de formulários web.
-
-## Funcionalidades
+## 📋 Funcionalidades
 
 - Layout responsivo para diferentes tamanhos de tela;
+- Página genérica de redirecionamento de formulário.
 
-## Status
-**Finalizado.**
->[Veja ao vivo por aqui](https://samcolt36.github.io/thank-you-page/).
+##  Técnicas e tecnologias utilizadas
+Fora as ferramentas base já citadas , usei a biblioteca *jquery* apenas por gostar da sintaxe resumida por encurtar certos caminhos quando se fala de *javascript vanilla*. 
 
-## Pré-requisitos
+## 📁 Clonar repositório
 
-Antes de começar, você precisará ter somente o NodeJS (v10 ou superior).
+Clone este repositório via Bash, usando:
 
-## Instalação
+✅ HTTPS:
 
-Primeiro consulte se o `node` já está instalando usando o comando no terminal (para windows) `node -v` ou `node --version`. O mesmo segue para o npm. A documentação oficial é de fácil acesso e está disponível através do [link](https://tailwindcss.com/docs/installation).
+```bash
+git clone https://github.com/SamColt36/thank-you-page
+```
 
-Para instalar as dependências do projeto, veja-as detalhadamente no arquivo *package-lock.json* que fica na raiz do projeto.
+✅ SSH:
 
-> **Versões utilizadas**
->
-> - npm 9.5.1
-> - node v18.16.0
+```bash
+git clone git@github.com:SamColt36/thank-you-page
+```
 
-## Execução
+✅ GitHub CLI:
 
-Foi usado o webpack no projeto. Para fazer a compilação use os scripts contidos no arquivo *package.json*. São apenas dois e a diferença é que o segundo fica observando as mudanças e gerando sob demanda a compilação.
-> `npm run build`: Para compilar os arquivos.
-> `npm run watch`: Para assistir as mudanças.
+```bash
+gh repo clone SamColt36/thank-you-page
+```
 
-## Personalização
+✅ Download ZIP.
 
-Para personalizar o card, você pode editar o arquivo `tailwind.config.js` que fica na raiz do projeto. Uma recomendação é usar a sintaxe do CJS ao invés do ES6 nos arquivos de configuração.
+## 📶 Status
 
-## Contribuição
+O projeto encontra-se em:
 
-Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar uma solicitação de **pull request**.
+> Finalizado
 
-## Licença
+## 🌐 Acessar o projeto
 
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](https://mit-license.org/) para obter detalhes.
+Acesse a última versão disponível pelo [link](https://samcolt36.github.io/thank-you-page/)🔗.
+
+## 📂 Estrutura de diretórios
+
+Foi pensada uma estrutura que segue o seguinte diagrama. Os arquivos compilados por padrão vão para o diretório `docs/`.
+
+    -docs/
+    ---images/
+    -src/
+    ---pages/
+    ---styles/
+    ---scripts/
+    -*.config.js
+    -README.md
+    -LICENSE
+    -.gitignore
+
+## 🔧 Instalação
+
+O projeto utiliza o _webpack_ como empacotador de códigos. O _Webpack_ nada mais é do que um empacotador de módulos/códigos. Seu grande diferencial é que ele foi criado para juntar arquivos de JavaScript que são utilizados dentro de um navegador. Sua principal utilidade é para projetos voltados para web focados em módulos de sua aplicação.
+
+Para fazer a instalação das dependências usadas nesse projeto, tais como: _webpack_ e o _tailwindcss_, é necessário ter o NodeJS instalado. Até a data atual, esse último pode ser obtido através do link:
 
 
+> [Node.js — Download Node.js® (nodejs.org)](https://nodejs.org/en/download)
+<img title="a Node" alt="Banner NodeJs" src="./docs/images/node-banner.png"
+style="max-width: 680px">
 
+Para obter as referências das dependências usadas o arquivo _package.json_ pode ser usado, e para mais detalhes use o _package-lock.json_, ambos na raiz do projeto.
 
+_Foi usada a sintaxe do CJS nos quando aos arquivos de configuração._
+
+## 🛠️ Abrir e rodar
+
+Após as devidas instalações e configurações presentes nos arquivos `*.config.js`, caso queira alterar o projeto é necessário recompilar os arquivos para gerar uma nova saída (por _default_ no diretório `docs/`). Pensando nisso, o arquivo _package.json_ conta com dois _scripts_:
+
+```json
+"scripts": {
+	"build": "webpack --config webpack.config.js",
+	"watch": "webpack --watch"
+},
+```
+
+- **build**: Apenas compila e gera as saídas
+- **watch**: Assiste as mudanças no código e compila.
+
+Por fim e não menos importante, rode no terminal um desses dois _scripts_ usando:
+
+```bash
+$ npm run build
+```
+ou
+
+```bash
+$ npm run watch
+```
+
+## 👥 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou relatar problemas.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE ou acesse [MIT License (mit-license.org)](https://mit-license.org/) para obter detalhes.
