@@ -1,19 +1,21 @@
 # 🚀 Projeto: Página de Agradecimento
+
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)![](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)![](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 <img title="Node" alt="Banner NodeJs" src="./docs/images/banner.png"
-style="max-width: 680px">   
+style="max-width: 680px">
 
 ## 🌐 Visão Geral
 
-Este projeto é um exemplo simples de como criar um componente de card estilizado usando ferramentas como *TailwindCSS* e o *Webpack*. O card inclui um *container* no centro que contém: cabeçalho com uma imagem, um título e uma breve descrição. O projeto serve para como página de agradecimento de formulários *web*.
+Este projeto é um exemplo simples de como criar um componente de card estilizado usando ferramentas como _TailwindCSS_ e o _Webpack_. O card inclui um _container_ no centro que contém: cabeçalho com uma imagem, um título e uma breve descrição. O projeto serve para como página de agradecimento de formulários _web_.
 
 ## 📋 Funcionalidades
 
 - Layout responsivo para diferentes tamanhos de tela;
 - Página genérica de redirecionamento de formulário.
 
-##  Técnicas e tecnologias utilizadas
-Fora as ferramentas base já citadas , usei a biblioteca *jquery* apenas por gostar da sintaxe resumida por encurtar certos caminhos quando se fala de *javascript vanilla*. 
+## Técnicas e tecnologias utilizadas
+
+Fora as ferramentas base já citadas , usei a biblioteca _jquery_ apenas por gostar da sintaxe resumida por encurtar certos caminhos quando se fala de _javascript vanilla_.
 
 ## 📁 Clonar repositório
 
@@ -47,7 +49,7 @@ O projeto encontra-se em:
 
 ## 🌐 Acessar o projeto
 
-Acesse a última versão disponível pelo [link](https://samcolt36.github.io/thank-you-page/)🔗.
+Acesse a última versão disponível pelo [link](https://thank-you-page-jade.vercel.app/)🔗.
 
 ## 📂 Estrutura de diretórios
 
@@ -70,10 +72,9 @@ O projeto utiliza o _webpack_ como empacotador de códigos. O _Webpack_ nada mai
 
 Para fazer a instalação das dependências usadas nesse projeto, tais como: _webpack_ e o _tailwindcss_, é necessário ter o NodeJS instalado. Até a data atual, esse último pode ser obtido através do link:
 
-
 > [Node.js — Download Node.js® (nodejs.org)](https://nodejs.org/en/download)
-<img title="a Node" alt="Banner NodeJs" src="./docs/images/node-banner.png"
-style="max-width: 680px">
+> <img title="a Node" alt="Banner NodeJs" src="./docs/images/node-banner.png"
+> style="max-width: 680px">
 
 Para obter as referências das dependências usadas o arquivo _package.json_ pode ser usado, e para mais detalhes use o _package-lock.json_, ambos na raiz do projeto.
 
@@ -98,6 +99,7 @@ Por fim e não menos importante, rode no terminal um desses dois _scripts_ usand
 ```bash
 $ npm run build
 ```
+
 ou
 
 ```bash
